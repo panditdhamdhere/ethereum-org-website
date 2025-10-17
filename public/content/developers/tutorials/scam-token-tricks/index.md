@@ -276,7 +276,7 @@ There are two more suspicious facts, directly related to minting:
 
 - While the balance increased belongs to `contract_owner`, the event emitted shows a transfer to `account`.
 
-### Why both `auth` and `approver`? Why the `mod` that does nothing? {#why-both-autho-and-approver-why-the-mod-that-does-nothing}
+### Why both `auth` and `approver`? Why the `mod` that does nothing? {#why-both-auth-and-approver-why-the-mod-that-does-nothing}
 
 This contract contains three modifiers: `_mod_`, `auth`, and `approver`.
 

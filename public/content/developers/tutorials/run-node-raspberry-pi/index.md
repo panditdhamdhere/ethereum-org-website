@@ -135,7 +135,7 @@ sudo apt-get install staking-deposit-cli
 cd && deposit new-mnemonic --num_validators 1
 ```
 
-(Or download the [staking-deposit-cli](https://github.com/ethereum/staking-deposit-cli) to run on an airgapped machine, and run the `deposit new-mnemnonic` command)
+(Or download the [staking-deposit-cli](https://github.com/ethereum/staking-deposit-cli) to run on an airgapped machine, and run the `deposit new-mnemonic` command)
 
 Keep the mnemonic phrase safe! The command above generated two files in the node's keystore: the validator keys and a deposit data file. The deposit data needs to be uploaded into the launchpad, so it must be copied from the Raspberry Pi to the desktop/laptop. This can be done using an ssh connection or any other copy/paste method.
 

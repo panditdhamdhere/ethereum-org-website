@@ -232,7 +232,7 @@ This function generates a pair hash. It is just the Solidity translation of the 
       return temp == merkleRoot;
     }
 
-}  // MarkleProof
+}  // MerkleProof
 ```
 
 In mathematical notation Merkle proof verification looks like this: `H(proof_n, H(proof_n-1, H(proof_n-2, ... H(proof_1, H(proof_0, value))...)))`. This code implements it.
